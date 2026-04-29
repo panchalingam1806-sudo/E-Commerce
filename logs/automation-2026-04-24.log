@@ -1,0 +1,62 @@
+14:57:19.999 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing Customer Details
+14:57:22.845 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating Expected Message
+14:57:22.893 [main] INFO  testCases.TC001_AccountRegistrationTest - *****Test Case Finished*****
+14:57:25.809 [main] INFO  testCases.TC002_LoginTest - ****TC002 Startded****
+14:57:26.621 [main] INFO  testCases.TC002_LoginTest - ****Validating the Title****
+14:57:29.438 [main] INFO  testCases.TC002_LoginTest - ****TC002 Ended****
+15:10:39.807 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\PANCHALINGAM\Java workspace\E-Commerce\grouping.xml"
+15:10:40.174 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\PANCHALINGAM\Java workspace\E-Commerce\grouping.xml
+
+15:10:44.060 [main] INFO  testCases.TC001_AccountRegistrationTest - *****Test Case Started*****
+15:10:44.224 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on my account link
+15:10:44.871 [main] INFO  testCases.TC001_AccountRegistrationTest - Cllicked on registered link
+15:10:44.874 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing Customer Details
+15:10:47.321 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating Expected Message
+15:10:47.382 [main] INFO  testCases.TC001_AccountRegistrationTest - *****Test Case Finished*****
+15:10:50.498 [main] INFO  testCases.TC002_LoginTest - ****TC002 Startded****
+15:10:51.307 [main] INFO  testCases.TC002_LoginTest - ****Validating the Title****
+15:10:53.085 [main] INFO  testCases.TC002_LoginTest - ****TC002 Ended****
+15:31:52.343 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\PANCHALINGAM\Java workspace\E-Commerce\grouping.xml"
+15:31:52.701 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\PANCHALINGAM\Java workspace\E-Commerce\grouping.xml
+
+15:31:57.453 [main] INFO  testCases.TC001_AccountRegistrationTest - *****Test Case Started*****
+15:31:57.631 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on my account link
+15:31:58.205 [main] INFO  testCases.TC001_AccountRegistrationTest - Cllicked on registered link
+15:31:58.227 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing Customer Details
+15:32:00.595 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating Expected Message
+15:32:00.648 [main] INFO  testCases.TC001_AccountRegistrationTest - *****Test Case Finished*****
+15:32:03.429 [main] INFO  testCases.TC002_LoginTest - ****TC002 Startded****
+15:32:04.279 [main] INFO  testCases.TC002_LoginTest - ****Validating the Title****
+15:32:05.601 [main] INFO  testCases.TC002_LoginTest - ****TC002 Ended****
+15:35:13.371 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\PANCHALINGAM\Java workspace\E-Commerce\grouping.xml"
+15:35:13.708 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\PANCHALINGAM\Java workspace\E-Commerce\grouping.xml
+
+15:35:17.581 [main] INFO  testCases.TC001_AccountRegistrationTest - *****Test Case Started*****
+15:35:17.752 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on my account link
+15:35:18.308 [main] INFO  testCases.TC001_AccountRegistrationTest - Cllicked on registered link
+15:35:18.334 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing Customer Details
+15:35:20.571 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating Expected Message
+15:35:20.617 [main] INFO  testCases.TC001_AccountRegistrationTest - *****Test Case Finished*****
+15:35:23.055 [main] INFO  testCases.TC002_LoginTest - ****TC002 Startded****
+15:35:23.864 [main] INFO  testCases.TC002_LoginTest - ****Validating the Title****
+15:35:24.819 [main] INFO  testCases.TC002_LoginTest - ****TC002 Ended****
+15:39:34.693 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\PANCHALINGAM\Java workspace\E-Commerce\grouping.xml"
+15:39:35.123 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\PANCHALINGAM\Java workspace\E-Commerce\grouping.xml
+
+15:39:38.935 [main] INFO  testCases.TC001_AccountRegistrationTest - *****Test Case Started*****
+15:39:39.092 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on my account link
+15:39:39.631 [main] INFO  testCases.TC001_AccountRegistrationTest - Cllicked on registered link
+15:39:39.636 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing Customer Details
+15:39:42.430 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating Expected Message
+15:39:42.488 [main] INFO  testCases.TC001_AccountRegistrationTest - *****Test Case Finished*****
+15:39:45.213 [main] INFO  testCases.TC002_LoginTest - ****TC002 Startded****
+15:39:47.542 [main] INFO  testCases.TC002_LoginTest - ****Validating the Title****
+15:39:47.593 [main] INFO  testCases.TC002_LoginTest - ****TC002 Ended****
+15:42:37.951 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\PANCHALINGAM\Java workspace\E-Commerce\grouping.xml"
+15:42:38.333 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\PANCHALINGAM\Java workspace\E-Commerce\grouping.xml
+

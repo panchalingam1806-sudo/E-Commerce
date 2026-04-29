@@ -1,0 +1,66 @@
+package testCases;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+import pageObjects.HomePage;
+import pageObjects.RegistrationPage;
+import testBase.BaseClass;
+
+public class TC001_AccountRegistrationTest extends BaseClass {
+	
+	
+	
+	@Test(groups= {"Sanity","Regression","Master"})
+	public void verify_account_registration()
+	{
+		try {
+		logger.info("*****Test Case Started*****");
+		
+		HomePage hp = new HomePage(driver);
+		
+		hp.clk_my_acc();
+		logger.info("Clicked on my account link");
+		
+		hp.register_btn();
+		logger.info("Cllicked on registered link");
+		
+		RegistrationPage regpage = new RegistrationPage(driver);
+		
+		logger.info("Providing Customer Details");
+		
+		regpage.first_name(randomString());
+		regpage.last_name(randomString());
+		regpage.e_mail(randomString()+"123@gmail.com");
+		regpage.telephone(randomnumeric());
+		
+		String pass = randomalphanumeric();
+		regpage.password(pass);  
+		regpage.confirm_password(pass);
+		
+		regpage.subscribe();
+		regpage.priv_policy();
+		regpage.continue_btn();
+		
+		logger.info("Validating Expected Message");
+		String confmsg = regpage.gettextinformation();
+		if(confmsg.equals("Your Account Has Been Created!"))
+		{
+			Assert.assertTrue(true);
+		}
+		else
+		{
+			logger.error("Test failed...");
+			logger.debug("Debug logs");
+			Assert.assertTrue(false);
+		}
+//		Assert.assertEquals(confmsg,"Your Account Has Been Creat!");     
+	}
+		
+	catch(Exception e)
+	{
+		Assert.fail();
+	}
+		logger.info("*****Test Case Finished*****");
+	}
+
+}
