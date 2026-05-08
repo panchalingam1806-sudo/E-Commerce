@@ -10,23 +10,23 @@ import testBase.BaseClass;
 
 public class TC002_LoginTest extends BaseClass{
 
-	@Test(groups= {"Sanity","Regression","Master"})
+	@Test(groups= {"smoke","functional_login"})
 	public void logincredentials()
 	{
 		logger.info("****TC002 Startded****");
 		
 		try
 		{
-		HomePage hp = new HomePage(driver);
+		HomePage hp = new HomePage(getDriver());
 		hp.clk_my_acc();
 		hp.clicklogin();
 		
-		LoginPage lp = new LoginPage(driver);
+		LoginPage lp = new LoginPage(getDriver());
 		lp.setmail(p.getProperty("email"));
 		lp.setpassword(p.getProperty("password"));
 		lp.click_login();
 		
-		MyAccountPage ap = new MyAccountPage(driver);
+		MyAccountPage ap = new MyAccountPage(getDriver());
 		logger.info("****Validating the Title****");
 		boolean titlepage = ap.isTitleVisible();
 //		Assert.assertEquals(titlepage, true,"Test failed");

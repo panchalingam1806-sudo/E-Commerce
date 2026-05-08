@@ -11,6 +11,8 @@ public class MyAccountPage extends BasePage{
 		super(driver);
 	}
 	
+
+	
 	@FindBy(xpath="//h2[normalize-space()='My Account']")
 	WebElement title;
 	

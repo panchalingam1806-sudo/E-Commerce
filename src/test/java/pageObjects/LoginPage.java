@@ -11,6 +11,7 @@ public class LoginPage extends BasePage{
 		super(driver);
 	}
 	
+	
 	@FindBy(xpath="//input[@id='input-email']")
 	WebElement entermail;
 	
@@ -19,6 +20,9 @@ public class LoginPage extends BasePage{
 	
 	@FindBy(xpath="//input[@value='Login']")
 	WebElement login;
+	
+	@FindBy(xpath="//div[@class='alert alert-danger alert-dismissible']")
+	WebElement wrongvalues;
 	
 	
 	public void setmail(String mail)
@@ -34,6 +38,18 @@ public class LoginPage extends BasePage{
 	public void click_login()
 	{
 		login.click();
+	}
+	
+	public String validate_wrongcredentials_msg()
+	{
+		try
+		{
+		return(wrongvalues.getText());
+		}
+		catch(Exception e)
+		{
+			return(e.getMessage());
+		}
 	}
 	
 	

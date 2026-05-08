@@ -13,7 +13,7 @@ import utilities.DataProviders;
 public class TC003_LoginDDT extends BaseClass {
 	
 	
-	@Test(dataProvider="loginData",dataProviderClass=DataProviders.class,groups= {"Sanity","Regresssion","Master","DataDriven"})
+	@Test(dataProvider="loginData",dataProviderClass=DataProviders.class,groups= {"smoke","regression","functional"})
 	public void verify_ddt_login(String email, String pwd,  String exp)
 	{
 		
@@ -21,16 +21,16 @@ public class TC003_LoginDDT extends BaseClass {
 	
 	try 
 	{
-	HomePage hp = new HomePage(driver);
+	HomePage hp = new HomePage(getDriver());
 	hp.clk_my_acc();
 	hp.clicklogin();
 	
-	LoginPage lp = new LoginPage(driver);
+	LoginPage lp = new LoginPage(getDriver());
 	lp.setmail(email);
 	lp.setpassword(pwd);
 	lp.click_login();
 	
-	MyAccountPage ap = new MyAccountPage(driver);
+	MyAccountPage ap = new MyAccountPage(getDriver());
 	boolean titlepage = ap.isTitleVisible();
 	
 	if(exp.equalsIgnoreCase("Valid"))

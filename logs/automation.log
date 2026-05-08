@@ -1,26 +1,23 @@
-17:38:22.286 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-17:38:22.325 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-17:38:22.325 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-17:38:22.327 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-17:38:22.351 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-17:38:22.368 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-17:38:22.369 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-17:38:22.391 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-17:38:22.392 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-17:38:22.392 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-17:38:22.418 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-17:38:22.419 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-17:38:22.420 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-17:38:22.442 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-17:38:22.443 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-17:38:22.445 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-17:38:22.463 [main] INFO  testCases.TC003_LoginDDT - **** TC003 Started ****
-17:38:25.398 [main] INFO  testCases.TC003_LoginDDT - **** TC003 Ended ****
-17:38:25.401 [main] INFO  testCases.TC003_LoginDDT - **** TC003 Started ****
-17:38:31.865 [main] INFO  testCases.TC003_LoginDDT - **** TC003 Ended ****
-17:38:31.867 [main] INFO  testCases.TC003_LoginDDT - **** TC003 Started ****
-17:38:38.229 [main] INFO  testCases.TC003_LoginDDT - **** TC003 Ended ****
-17:38:38.229 [main] INFO  testCases.TC003_LoginDDT - **** TC003 Started ****
-17:38:44.577 [main] INFO  testCases.TC003_LoginDDT - **** TC003 Ended ****
-17:38:44.577 [main] INFO  testCases.TC003_LoginDDT - **** TC003 Started ****
-17:38:46.902 [main] INFO  testCases.TC003_LoginDDT - **** TC003 Ended ****
+12:41:04.638 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - Providing Customer Details
+12:41:07.934 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - Validating Expected Message
+12:41:08.000 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - *****Test Case Finished*****
+12:41:08.202 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - Validating Expected Message
+12:41:08.282 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - *****Test Case Finished*****
+12:41:59.958 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\PANCHALINGAM\Java workspace\E-Commerce\crossbrowsertesting.xml"
+12:42:00.336 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\PANCHALINGAM\Java workspace\E-Commerce\crossbrowsertesting.xml
+
+12:42:05.151 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - *****Test Case Started*****
+12:42:05.712 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - Clicked on my account link
+12:42:05.910 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - *****Test Case Started*****
+12:42:06.289 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - Clicked on my account link
+12:42:06.669 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - Cllicked on registered link
+12:42:06.677 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - Providing Customer Details
+12:42:07.249 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - Cllicked on registered link
+12:42:07.250 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - Providing Customer Details
+12:42:11.445 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - Validating Expected Message
+12:42:11.516 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - Validating Expected Message
+12:42:11.575 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - *****Test Case Finished*****
+12:42:11.577 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistrationTest - *****Test Case Started*****
+12:42:11.634 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - *****Test Case Finished*****
+12:42:11.844 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistrationTest - Clicked on my account link

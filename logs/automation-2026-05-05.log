@@ -1,0 +1,53 @@
+21:32:49.782 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistrationTest - Clicked on my account link
+21:32:50.381 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistrationTest - Cllicked on registered link
+21:32:50.388 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistrationTest - Providing Customer Details
+22:02:47.167 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\PANCHALINGAM\Java workspace\E-Commerce\crossbrowsertesting.xml"
+22:02:47.540 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\PANCHALINGAM\Java workspace\E-Commerce\crossbrowsertesting.xml
+
+22:02:51.940 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - *****Test Case Started*****
+22:02:51.940 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - *****Test Case Started*****
+22:02:56.067 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistrationTest - *****Test Case Started*****
+22:19:36.768 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\PANCHALINGAM\Java workspace\E-Commerce\crossbrowsertesting.xml"
+22:19:37.183 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\PANCHALINGAM\Java workspace\E-Commerce\crossbrowsertesting.xml
+
+22:19:42.462 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - *****Test Case Started*****
+22:19:42.465 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - *****Test Case Started*****
+22:19:46.763 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistrationTest - *****Test Case Started*****
+22:31:08.286 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\PANCHALINGAM\Java workspace\E-Commerce\crossbrowsertesting.xml"
+22:31:08.670 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\PANCHALINGAM\Java workspace\E-Commerce\crossbrowsertesting.xml
+
+22:31:13.105 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - *****Test Case Started*****
+22:31:13.352 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - Clicked on my account link
+22:31:13.910 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - *****Test Case Started*****
+22:31:14.088 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - Clicked on my account link
+22:31:14.361 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - Cllicked on registered link
+22:31:14.386 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - Providing Customer Details
+22:31:14.913 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - Cllicked on registered link
+22:31:14.913 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - Providing Customer Details
+22:31:18.808 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistrationTest - *****Test Case Started*****
+22:31:18.921 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistrationTest - Clicked on my account link
+22:31:20.139 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistrationTest - Cllicked on registered link
+22:31:20.139 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistrationTest - Providing Customer Details
+22:31:23.677 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - Validating Expected Message
+22:31:23.753 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - *****Test Case Finished*****
+22:31:23.781 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - Validating Expected Message
+22:31:23.876 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - *****Test Case Finished*****
+22:31:24.884 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistrationTest - Validating Expected Message
+22:31:24.918 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistrationTest - *****Test Case Finished*****
+22:35:08.579 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\PANCHALINGAM\Java workspace\E-Commerce\crossbrowsertesting.xml"
+22:35:08.954 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\PANCHALINGAM\Java workspace\E-Commerce\crossbrowsertesting.xml
+
+22:35:13.117 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - *****Test Case Started*****
+22:35:13.338 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - Clicked on my account link
+22:35:13.707 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - *****Test Case Started*****
+22:35:13.889 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - Clicked on my account link
+22:35:13.940 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - Cllicked on registered link
+22:35:13.945 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - Providing Customer Details
+22:35:14.551 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - Cllicked on registered link
+22:35:14.553 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - Providing Customer Details
+22:35:17.188 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - Validating Expected Message
+22:35:17.201 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - Validating Expected Message

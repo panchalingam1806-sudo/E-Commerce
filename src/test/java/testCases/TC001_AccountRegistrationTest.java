@@ -10,13 +10,13 @@ public class TC001_AccountRegistrationTest extends BaseClass {
 	
 	
 	
-	@Test(groups= {"Sanity","Regression","Master"})
+	@Test(groups= {"smoke","functional_registration"})
 	public void verify_account_registration()
 	{
 		try {
 		logger.info("*****Test Case Started*****");
 		
-		HomePage hp = new HomePage(driver);
+		HomePage hp = new HomePage(getDriver());
 		
 		hp.clk_my_acc();
 		logger.info("Clicked on my account link");
@@ -24,7 +24,7 @@ public class TC001_AccountRegistrationTest extends BaseClass {
 		hp.register_btn();
 		logger.info("Cllicked on registered link");
 		
-		RegistrationPage regpage = new RegistrationPage(driver);
+		RegistrationPage regpage = new RegistrationPage(getDriver());
 		
 		logger.info("Providing Customer Details");
 		
@@ -43,8 +43,11 @@ public class TC001_AccountRegistrationTest extends BaseClass {
 		
 		logger.info("Validating Expected Message");
 		String confmsg = regpage.gettextinformation();
+		
+		
 		if(confmsg.equals("Your Account Has Been Created!"))
 		{
+			System.out.println("Actual message: [" + confmsg + "]");
 			Assert.assertTrue(true);
 		}
 		else
@@ -58,7 +61,8 @@ public class TC001_AccountRegistrationTest extends BaseClass {
 		
 	catch(Exception e)
 	{
-		Assert.fail();
+		e.printStackTrace();
+		Assert.fail("Account registration failed" + e.getMessage());
 	}
 		logger.info("*****Test Case Finished*****");
 	}

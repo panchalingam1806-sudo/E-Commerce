@@ -77,19 +77,27 @@ public class ExtentReportManager implements ITestListener {
 	
 	public void onTestFailure(ITestResult result)
 	{
-		test = extent.createTest(result.getTestClass().getName());
-		test.assignCategory(result.getMethod().getGroups());
-		test.log(Status.FAIL, result.getName() + "got failed");
-		test.log(Status.INFO, result.getThrowable().getMessage());
-		
-		try {
-			String imgpath = new BaseClass().captureScreen(result.getName());
-			test.addScreenCaptureFromPath(imgpath);
-		}
-		catch(IOException e1)
-		{
-			e1.printStackTrace();
-		}
+	    test = extent.createTest(result.getTestClass().getName());
+	    test.assignCategory(result.getMethod().getGroups());
+
+	    test.log(Status.FAIL, result.getName() + " got failed");
+
+	    if (result.getThrowable() != null) {
+	        test.log(Status.FAIL, result.getThrowable());
+	    } else {
+	        test.log(Status.INFO, "No exception message available");
+	    }
+
+	    try {
+	        String imgpath = BaseClass.captureScreen(result.getName());
+
+	        if (imgpath != null && !imgpath.equals("NO_SCREENSHOT")) {
+	            test.addScreenCaptureFromPath(imgpath);
+	        }
+
+	    } catch (IOException e) {
+	        e.printStackTrace();
+	    }
 	}
 	
 	public void onTestSkipped(ITestResult result)
