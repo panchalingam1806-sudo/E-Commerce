@@ -25,12 +25,12 @@ public class LoginPage extends BasePage{
 	WebElement wrongvalues;
 	
 	
-	public void setmail(String mail)
+	public void setMail(String mail)
 	{
 		entermail.sendKeys(mail);
 	}
 	
-	public void setpassword(String passwrd)
+	public void setPassword(String passwrd)
 	{
 		enterpwd.sendKeys(passwrd);
 	}

@@ -18,10 +18,10 @@ public class TC001_AccountRegistrationTest extends BaseClass {
 		
 		HomePage hp = new HomePage(getDriver());
 		
-		hp.clk_my_acc();
+		hp.clickMyAccount();
 		logger.info("Clicked on my account link");
 		
-		hp.register_btn();
+		hp.registerButton();
 		logger.info("Cllicked on registered link");
 		
 		RegistrationPage regpage = new RegistrationPage(getDriver());

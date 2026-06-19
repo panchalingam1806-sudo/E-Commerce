@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>WindowsChromeTest</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>11/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri May 08 12:23:03 IST 2026</td>
+<td>Started on:</td><td>Fri Jun 19 12:12:49 IST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>17 seconds (17660 ms)</td>
+<tr><td>Total time:</td><td>172 seconds (172664 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,49 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testCases.TC007_SearchByCategory.valid_and_invalid_Category()'><b>valid_and_invalid_Category</b><br>Test class: testCases.TC007_SearchByCategory</td>
+<td><div><pre>org.testng.TestNGException: 
+Method public void testCases.TC007_SearchByCategory.valid_and_invalid_Category(java.lang.String) requires a @DataProvider named : testData in class utilities.DataProviders
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1357308022", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1357308022'><pre>org.testng.TestNGException: 
+Method public void testCases.TC007_SearchByCategory.valid_and_invalid_Category(java.lang.String) requires a @DataProvider named : testData in class utilities.DataProviders
+	at org.testng.internal.Parameters.findDataProvider(Parameters.java:532)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:769)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
+	at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+	at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:959)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+</pre></div></td>
+<td>0</td>
+<td>testCases.TC007_SearchByCategory@115667d</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,10 +119,60 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testCases.TC001_AccountRegistrationTest.verify_account_registration()'><b>verify_account_registration</b><br>Test class: testCases.TC001_AccountRegistrationTest</td>
+<td title='testCases.TC003_LoginDDT.verify_ddt_login()'><b>verify_ddt_login</b><br>Test class: testCases.TC003_LoginDDT<br>Parameters: david32@gmail.com, david#213, invalid</td>
+<td></td>
+<td>6</td>
+<td>testCases.TC003_LoginDDT@687ef2e0</td></tr>
+<tr>
+<td title='testCases.TC003_LoginDDT.verify_ddt_login()'><b>verify_ddt_login</b><br>Test class: testCases.TC003_LoginDDT<br>Parameters: kingvirat18@gmail.com, Virat@18, valid</td>
 <td></td>
 <td>5</td>
-<td>testCases.TC001_AccountRegistrationTest@63798ca7</td></tr>
+<td>testCases.TC003_LoginDDT@687ef2e0</td></tr>
+<tr>
+<td title='testCases.TC003_LoginDDT.verify_ddt_login()'><b>verify_ddt_login</b><br>Test class: testCases.TC003_LoginDDT<br>Parameters: laxmi@yahoogmail.com, lax@123, invalid</td>
+<td></td>
+<td>7</td>
+<td>testCases.TC003_LoginDDT@687ef2e0</td></tr>
+<tr>
+<td title='testCases.TC004_Invalid_Login.verify_invalid_login()'><b>verify_invalid_login</b><br>Test class: testCases.TC004_Invalid_Login</td>
+<td></td>
+<td>2</td>
+<td>testCases.TC004_Invalid_Login@15dcfae7</td></tr>
+<tr>
+<td title='testCases.TC006_SearchValidProduct.emptySearch()'><b>emptySearch</b><br>Test class: testCases.TC006_SearchValidProduct</td>
+<td></td>
+<td>2</td>
+<td>testCases.TC006_SearchValidProduct@1e636ea3</td></tr>
+<tr>
+<td title='testCases.TC002_LoginTest.logincredentials()'><b>logincredentials</b><br>Test class: testCases.TC002_LoginTest</td>
+<td></td>
+<td>3</td>
+<td>testCases.TC002_LoginTest@737a135b</td></tr>
+<tr>
+<td title='testCases.TC001_AccountRegistrationTest.verify_account_registration()'><b>verify_account_registration</b><br>Test class: testCases.TC001_AccountRegistrationTest</td>
+<td></td>
+<td>6</td>
+<td>testCases.TC001_AccountRegistrationTest@2654635</td></tr>
+<tr>
+<td title='testCases.TC003_LoginDDT.verify_ddt_login()'><b>verify_ddt_login</b><br>Test class: testCases.TC003_LoginDDT<br>Parameters: john123@gmail.com, john@#321, invalid</td>
+<td></td>
+<td>6</td>
+<td>testCases.TC003_LoginDDT@687ef2e0</td></tr>
+<tr>
+<td title='testCases.TC003_LoginDDT.verify_ddt_login()'><b>verify_ddt_login</b><br>Test class: testCases.TC003_LoginDDT<br>Parameters: abc123@gmail.com, test@123, valid</td>
+<td></td>
+<td>4</td>
+<td>testCases.TC003_LoginDDT@687ef2e0</td></tr>
+<tr>
+<td title='testCases.TC005_Logout.verify_logout()'><b>verify_logout</b><br>Test class: testCases.TC005_Logout</td>
+<td></td>
+<td>16</td>
+<td>testCases.TC005_Logout@3da05287</td></tr>
+<tr>
+<td title='testCases.TC006_SearchValidProduct.valid_product_search()'><b>valid_product_search</b><br>Test class: testCases.TC006_SearchValidProduct</td>
+<td></td>
+<td>1</td>
+<td>testCases.TC006_SearchValidProduct@1e636ea3</td></tr>
 </table><p>
 </body>
 </html>

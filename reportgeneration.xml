@@ -13,10 +13,17 @@
   	<parameter name="browser" value="chrome"/>
   	
     <classes>
-	   	 <class name="testCases.TC001_AccountRegistrationTest"/>
+	   	  <class name="testCases.TC001_AccountRegistrationTest"/>
 	      <class name="testCases.TC002_LoginTest"/>
 	      <class name="testCases.TC003_LoginDDT"/>
 	      <class name="testCases.TC004_Invalid_Login"/>
+	      <class name="testCases.TC005_Logout"/>   
+  		  <class name="testCases.TC006_SearchValidProduct"/>    
+  		  <class name="testCases.TC007_SearchByCategory"/>	 
+  		  <class name="testCases.TC008_SearchBySubCategory"/>  
+  		  <class name="testCases.TC009_ComparisionProductDisplayPage"/>    
+  		  <class name="testCases.TC010_ProductDetails"/>  
+  		  <class name="testCases.TC011_ProductPriceDetails"/>
     </classes>
     
   </test> <!-- Test -->

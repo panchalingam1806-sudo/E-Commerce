@@ -1,0 +1,60 @@
+12:19:08.023 [main] INFO  testCases.TC005_Logout - *****Test Case Finished*****
+12:21:13.417 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\PANCHALINGAM\Java workspace\E-Commerce\master.xml"
+12:21:13.811 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\PANCHALINGAM\Java workspace\E-Commerce\master.xml
+
+12:21:17.576 [main] INFO  testCases.TC005_Logout - #### Before Starting Testcase we Have to Login ####
+12:21:20.087 [main] INFO  testCases.TC005_Logout - #### Login Successfull ####
+12:21:20.087 [main] INFO  testCases.TC005_Logout - #### Actual Testcase Starts Here! ####
+12:21:20.104 [main] INFO  testCases.TC005_Logout - #### Clicked my account dropdown menu ####
+12:21:20.210 [main] INFO  testCases.TC005_Logout - #### clicked logout option in dropdown menu ####
+12:21:20.870 [main] INFO  testCases.TC005_Logout - #### Assertion for logout page and login option under myaccount dropdown ####
+12:22:39.188 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\PANCHALINGAM\Java workspace\E-Commerce\master.xml"
+12:22:39.598 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\PANCHALINGAM\Java workspace\E-Commerce\master.xml
+
+12:22:43.518 [main] INFO  testCases.TC005_Logout - #### Before Starting Testcase we Have to Login ####
+12:22:44.543 [main] INFO  testCases.TC005_Logout - #### Login Successfull ####
+12:22:44.543 [main] INFO  testCases.TC005_Logout - #### Actual Testcase Starts Here! ####
+12:22:44.543 [main] INFO  testCases.TC005_Logout - #### Clicked my account dropdown menu ####
+12:22:45.614 [main] INFO  testCases.TC005_Logout - #### clicked logout option in dropdown menu ####
+12:22:46.290 [main] INFO  testCases.TC005_Logout - #### Assertion for logout page and login option under myaccount dropdown ####
+12:22:46.409 [main] INFO  testCases.TC005_Logout - ****Clicked continue button****
+12:22:46.952 [main] INFO  testCases.TC005_Logout - ****Verifying HomePage****
+12:22:46.952 [main] INFO  testCases.TC005_Logout - *****Test Case Finished*****
+12:22:58.479 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\PANCHALINGAM\Java workspace\E-Commerce\master.xml"
+12:22:58.861 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\PANCHALINGAM\Java workspace\E-Commerce\master.xml
+
+12:23:02.789 [main] INFO  testCases.TC005_Logout - #### Before Starting Testcase we Have to Login ####
+12:23:03.715 [main] INFO  testCases.TC005_Logout - #### Login Successfull ####
+12:23:03.716 [main] INFO  testCases.TC005_Logout - #### Actual Testcase Starts Here! ####
+12:23:03.716 [main] INFO  testCases.TC005_Logout - #### Clicked my account dropdown menu ####
+12:23:05.483 [main] INFO  testCases.TC005_Logout - #### clicked logout option in dropdown menu ####
+12:23:06.168 [main] INFO  testCases.TC005_Logout - #### Assertion for logout page and login option under myaccount dropdown ####
+12:23:06.287 [main] INFO  testCases.TC005_Logout - ****Clicked continue button****
+12:23:06.801 [main] INFO  testCases.TC005_Logout - ****Verifying HomePage****
+12:23:06.801 [main] INFO  testCases.TC005_Logout - *****Test Case Finished*****
+12:24:09.738 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\PANCHALINGAM\Java workspace\E-Commerce\master.xml"
+12:24:10.157 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\PANCHALINGAM\Java workspace\E-Commerce\master.xml
+
+12:24:16.317 [main] INFO  testCases.TC005_Logout - #### Before Starting Testcase we Have to Login ####
+12:24:18.959 [main] INFO  testCases.TC005_Logout - #### Login Successfull ####
+12:24:18.959 [main] INFO  testCases.TC005_Logout - #### Actual Testcase Starts Here! ####
+12:24:18.959 [main] INFO  testCases.TC005_Logout - #### Clicked my account dropdown menu ####
+12:24:19.075 [main] INFO  testCases.TC005_Logout - #### clicked logout option in dropdown menu ####
+12:24:19.774 [main] INFO  testCases.TC005_Logout - #### Assertion for logout page and login option under myaccount dropdown ####
+12:24:19.887 [main] INFO  testCases.TC005_Logout - ****Clicked continue button****
+12:24:20.316 [main] INFO  testCases.TC005_Logout - ****Verifying HomePage****
+12:24:20.316 [main] INFO  testCases.TC005_Logout - *****Test Case Finished*****
+16:38:44.957 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\PANCHALINGAM\Java workspace\E-Commerce\master.xml"
+16:38:45.345 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\PANCHALINGAM\Java workspace\E-Commerce\master.xml
+
+16:38:51.280 [main] INFO  testCases.TC005_Logout - #### Before Starting Testcase we Have to Login ####
+16:38:53.424 [main] INFO  testCases.TC005_Logout - #### Login Successfull ####
+16:38:53.424 [main] INFO  testCases.TC005_Logout - #### Actual Testcase Starts Here! ####
+16:38:53.577 [main] INFO  testCases.TC005_Logout - #### Clicked my account dropdown menu ####
+16:38:54.028 [main] INFO  testCases.TC005_Logout - #### clicked logout option in dropdown menu ####
+16:38:54.090 [main] INFO  testCases.TC005_Logout - #### Assertion for logout page and login option under myaccount dropdown ####

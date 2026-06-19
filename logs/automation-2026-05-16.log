@@ -1,0 +1,51 @@
+11:01:52.827 [TestNG-tests-2] INFO  testCases.TC009_ComparisionProductDisplayPage - ****Clicked Compare To Product****
+11:01:52.938 [TestNG-tests-1] INFO  testCases.TC009_ComparisionProductDisplayPage - ****Validate the Tooltip Text****
+11:01:52.978 [TestNG-tests-1] INFO  testCases.TC009_ComparisionProductDisplayPage - ****Clicked Compare To Product****
+11:01:53.052 [TestNG-tests-2] INFO  testCases.TC009_ComparisionProductDisplayPage - ****Validated the Success Text Message****
+11:01:53.167 [TestNG-tests-1] INFO  testCases.TC009_ComparisionProductDisplayPage - ****Validated the Success Text Message****
+11:01:53.316 [TestNG-tests-2] INFO  testCases.TC009_ComparisionProductDisplayPage - ****Clicked Product Comparision Link****
+11:01:53.374 [TestNG-tests-1] INFO  testCases.TC009_ComparisionProductDisplayPage - ****Clicked Product Comparision Link****
+11:01:53.889 [TestNG-tests-2] INFO  testCases.TC009_ComparisionProductDisplayPage - ****Verified Product Comparision Page****
+11:01:53.935 [TestNG-tests-2] INFO  testCases.TC009_ComparisionProductDisplayPage - ****TestCase Executed Successfully****
+11:01:54.009 [TestNG-tests-1] INFO  testCases.TC009_ComparisionProductDisplayPage - ****Verified Product Comparision Page****
+11:01:54.055 [TestNG-tests-1] INFO  testCases.TC009_ComparisionProductDisplayPage - ****TestCase Executed Successfully****
+12:56:22.788 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\PANCHALINGAM\Java workspace\E-Commerce\master.xml"
+12:56:23.166 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\PANCHALINGAM\Java workspace\E-Commerce\master.xml
+
+12:58:38.920 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\PANCHALINGAM\Java workspace\E-Commerce\master.xml"
+12:58:39.255 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\PANCHALINGAM\Java workspace\E-Commerce\master.xml
+
+13:00:07.059 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\PANCHALINGAM\Java workspace\E-Commerce\master.xml"
+13:00:07.390 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\PANCHALINGAM\Java workspace\E-Commerce\master.xml
+
+13:00:12.030 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ####TestCase Started####
+13:00:12.242 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Enter the Product name in search box****
+13:00:13.478 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Clicked the Search Icon****
+13:00:14.749 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Clicked search display image****
+13:00:14.888 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Clicked Compare To Product****
+13:00:16.140 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Clicked Product Comparision Link****
+13:00:16.165 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Validated only one product is Displayed****
+13:00:16.199 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Validated the Name of the Product****
+13:00:16.229 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Validated the Image of the Product****
+13:00:16.259 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Validated the Price of the Product****
+13:00:16.290 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Validated the Model of the Product****
+13:00:16.320 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Validated the Brand of the Product****
+13:00:16.348 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Validated the Availability of the Product****
+13:02:05.053 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\PANCHALINGAM\Java workspace\E-Commerce\master.xml"
+13:02:05.386 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\PANCHALINGAM\Java workspace\E-Commerce\master.xml
+
+13:02:08.890 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ####TestCase Started####
+13:02:09.068 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Enter the Product name in search box****
+13:02:09.572 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Clicked the Search Icon****
+13:02:10.879 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Clicked search display image****
+13:02:11.030 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Clicked Compare To Product****
+13:02:11.854 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Clicked Product Comparision Link****
+13:02:11.883 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Validated only one product is Displayed****
+13:02:11.915 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Validated the Name of the Product****
+13:02:11.947 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Validated the Image of the Product****
+13:02:11.975 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Validated the Price of the Product****
+13:02:12.002 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Validated the Model of the Product****

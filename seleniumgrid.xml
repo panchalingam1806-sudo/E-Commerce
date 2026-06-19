@@ -12,10 +12,15 @@
   	<parameter name="os" value="linux"/> 
   	<parameter name="browser" value="chrome"/>
     <classes>
-    <class name="testCases.TC001_AccountRegistrationTest"/>
-	  <!--     <class name="testCases.TC002_LoginTest"/>
-	      <class name="testCases.TC003_LoginDDT"/>
-	      <class name="testCases.TC004_Invalid_Login"/>   -->
+    	<class name="testCases.TC001_AccountRegistrationTest"/> 
+  	 	
+  	    <class name="testCases.TC002_LoginTest"/>   
+ 	 	<class name="testCases.TC003_LoginDDT"/>  
+  		<class name="testCases.TC004_Invalid_Login"/>  
+  		<class name="testCases.TC005_Logout"/>   
+  		<class name="testCases.TC006_SearchValidProduct"/>     
+  		 <!-- 	<class name="testCases.TC007_SearchByCategory"/>  -->
+  		
     </classes>
   </test>
 
@@ -24,23 +29,47 @@
   <parameter name="os" value="linux"/> 
   	<parameter name="browser" value="edge"/>
     <classes>
-     <class name="testCases.TC001_AccountRegistrationTest"/>
-	    <!--   <class name="testCases.TC002_LoginTest"/>
-	      <class name="testCases.TC003_LoginDDT"/>
-	      <class name="testCases.TC004_Invalid_Login"/>  -->
+     	<class name="testCases.TC001_AccountRegistrationTest"/> 
+  	 
+  	 	<class name="testCases.TC002_LoginTest"/>   
+ 	 	<class name="testCases.TC003_LoginDDT"/>  
+  		<class name="testCases.TC004_Invalid_Login"/>  
+  		<class name="testCases.TC005_Logout"/>   
+  		<class name="testCases.TC006_SearchValidProduct"/>     
+  		<!-- <class name="testCases.TC007_SearchByCategory"/> -->
+  		
     </classes>
     </test>
     
-<!-- WINDOWS-->
+  <test name="LinuxFireFoxTest">
+  <parameter name="os" value="linux"/> 
+  	<parameter name="browser" value="firefox"/>
+    <classes>
+     	<class name="testCases.TC001_AccountRegistrationTest"/> 
+  	 	<class name="testCases.TC002_LoginTest"/>   
+ 	 	<class name="testCases.TC003_LoginDDT"/>  
+  		<class name="testCases.TC004_Invalid_Login"/>  
+  		<class name="testCases.TC005_Logout"/>   
+  		<class name="testCases.TC006_SearchValidProduct"/>     
+  		<!-- <class name="testCases.TC007_SearchByCategory"/> -->
+  		
+    </classes>
+    </test>  
+    
+<!-- WINDOWS   
 
      <test name="WindowsChromeTest">
   	<parameter name="os" value="windows"/> 
   	<parameter name="browser" value="chrome"/>
     <classes>
     <class name="testCases.TC001_AccountRegistrationTest"/>
-	 <!--      <class name="testCases.TC002_LoginTest"/>
-	      <class name="testCases.TC003_LoginDDT"/>
-	      <class name="testCases.TC004_Invalid_Login"/>   -->
+	 	<class name="testCases.TC001_AccountRegistrationTest"/> 
+  	 	<class name="testCases.TC002_LoginTest"/>   
+ 	 	<class name="testCases.TC003_LoginDDT"/>  
+  		<class name="testCases.TC004_Invalid_Login"/>  
+  		<class name="testCases.TC005_Logout"/>   
+  		<class name="testCases.TC006_SearchValidProduct"/>     
+  		<class name="testCases.TC007_SearchByCategory"/>
     </classes>
   </test>
 
@@ -49,11 +78,33 @@
   <parameter name="os" value="windows"/> 
   	<parameter name="browser" value="edge"/>
     <classes>
-      <class name="testCases.TC001_AccountRegistrationTest"/>
-	  <!--     <class name="testCases.TC002_LoginTest"/>
-	      <class name="testCases.TC003_LoginDDT"/>
-	      <class name="testCases.TC004_Invalid_Login"/>  -->
+      	<class name="testCases.TC001_AccountRegistrationTest"/> 
+  	 	<class name="testCases.TC002_LoginTest"/>   
+ 	 	<class name="testCases.TC003_LoginDDT"/>  
+  		<class name="testCases.TC004_Invalid_Login"/>  
+  		<class name="testCases.TC005_Logout"/>   
+  		<class name="testCases.TC006_SearchValidProduct"/>     
+  		<class name="testCases.TC007_SearchByCategory"/>
     </classes>
 
-  </test> <!-- Test -->
+  </test> 
+  
+  
+  <test name="WindowsFireFoxTest">
+  <parameter name="os" value="windows"/> 
+  	<parameter name="browser" value="firefox"/>
+    <classes>
+     	<class name="testCases.TC001_AccountRegistrationTest"/> 
+  	 	<class name="testCases.TC002_LoginTest"/>   
+ 	 	<class name="testCases.TC003_LoginDDT"/>  
+  		<class name="testCases.TC004_Invalid_Login"/>  
+  		<class name="testCases.TC005_Logout"/>   
+  		<class name="testCases.TC006_SearchValidProduct"/>     
+  		<class name="testCases.TC007_SearchByCategory"/>
+    </classes>
+    </test>
+   
+   -->
+  
+  
 </suite> <!-- Suite -->

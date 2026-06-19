@@ -1,0 +1,51 @@
+09:43:12.363 [TestNG-tests-1] INFO  testCases.TC009_ComparisionProductDisplayPage - ****Validate the Tooltip Text****
+09:43:12.408 [TestNG-tests-1] INFO  testCases.TC009_ComparisionProductDisplayPage - ****Clicked Compare To Product****
+09:43:12.546 [TestNG-tests-1] INFO  testCases.TC009_ComparisionProductDisplayPage - ****Validated the Success Text Message****
+09:49:29.712 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\PANCHALINGAM\Java workspace\E-Commerce\master.xml"
+09:49:30.037 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\PANCHALINGAM\Java workspace\E-Commerce\master.xml
+
+09:49:34.566 [TestNG-tests-1] INFO  testCases.TC009_ComparisionProductDisplayPage - ****Enter the Product name in search box****
+09:49:34.767 [TestNG-tests-1] INFO  testCases.TC009_ComparisionProductDisplayPage - ****Clicked the Search Icon****
+09:49:35.396 [TestNG-tests-1] INFO  testCases.TC009_ComparisionProductDisplayPage - ****Clicked search display image****
+09:49:36.431 [TestNG-tests-1] INFO  testCases.TC009_ComparisionProductDisplayPage - ****Validate the Tooltip Text****
+09:49:36.480 [TestNG-tests-1] INFO  testCases.TC009_ComparisionProductDisplayPage - ****Clicked Compare To Product****
+09:49:36.624 [TestNG-tests-1] INFO  testCases.TC009_ComparisionProductDisplayPage - ****Validated the Success Text Message****
+09:50:23.593 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\PANCHALINGAM\Java workspace\E-Commerce\master.xml"
+09:50:23.928 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\PANCHALINGAM\Java workspace\E-Commerce\master.xml
+
+09:50:27.242 [TestNG-tests-1] INFO  testCases.TC009_ComparisionProductDisplayPage - ****Enter the Product name in search box****
+09:50:27.448 [TestNG-tests-1] INFO  testCases.TC009_ComparisionProductDisplayPage - ****Clicked the Search Icon****
+09:50:27.913 [TestNG-tests-1] INFO  testCases.TC009_ComparisionProductDisplayPage - ****Clicked search display image****
+09:50:28.625 [TestNG-tests-1] INFO  testCases.TC009_ComparisionProductDisplayPage - ****Validate the Tooltip Text****
+09:50:28.665 [TestNG-tests-1] INFO  testCases.TC009_ComparisionProductDisplayPage - ****Clicked Compare To Product****
+09:50:28.822 [TestNG-tests-1] INFO  testCases.TC009_ComparisionProductDisplayPage - ****Validated the Success Text Message****
+09:53:06.770 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\PANCHALINGAM\Java workspace\E-Commerce\master.xml"
+09:53:07.111 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\PANCHALINGAM\Java workspace\E-Commerce\master.xml
+
+09:53:12.682 [TestNG-tests-1] INFO  testCases.TC009_ComparisionProductDisplayPage - ****Enter the Product name in search box****
+09:53:12.885 [TestNG-tests-1] INFO  testCases.TC009_ComparisionProductDisplayPage - ****Clicked the Search Icon****
+09:53:13.427 [TestNG-tests-1] INFO  testCases.TC009_ComparisionProductDisplayPage - ****Clicked search display image****
+09:53:14.219 [TestNG-tests-1] INFO  testCases.TC009_ComparisionProductDisplayPage - ****Validate the Tooltip Text****
+09:53:14.254 [TestNG-tests-1] INFO  testCases.TC009_ComparisionProductDisplayPage - ****Clicked Compare To Product****
+09:53:14.410 [TestNG-tests-1] INFO  testCases.TC009_ComparisionProductDisplayPage - ****Validated the Success Text Message****
+09:56:19.398 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\PANCHALINGAM\Java workspace\E-Commerce\master.xml"
+09:56:19.732 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\PANCHALINGAM\Java workspace\E-Commerce\master.xml
+
+09:56:23.355 [TestNG-tests-1] INFO  testCases.TC009_ComparisionProductDisplayPage - ****Enter the Product name in search box****
+09:56:23.528 [TestNG-tests-1] INFO  testCases.TC009_ComparisionProductDisplayPage - ****Clicked the Search Icon****
+09:56:23.976 [TestNG-tests-1] INFO  testCases.TC009_ComparisionProductDisplayPage - ****Clicked search display image****
+09:56:24.887 [TestNG-tests-1] INFO  testCases.TC009_ComparisionProductDisplayPage - ****Validate the Tooltip Text****
+09:56:24.928 [TestNG-tests-1] INFO  testCases.TC009_ComparisionProductDisplayPage - ****Clicked Compare To Product****
+09:56:25.078 [TestNG-tests-1] INFO  testCases.TC009_ComparisionProductDisplayPage - ****Validated the Success Text Message****
+09:56:25.285 [TestNG-tests-1] INFO  testCases.TC009_ComparisionProductDisplayPage - Clicked Product Comparision Link
+09:56:25.847 [TestNG-tests-1] INFO  testCases.TC009_ComparisionProductDisplayPage - ****Verified Product Comparision Page****
+09:57:37.057 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\PANCHALINGAM\Java workspace\E-Commerce\master.xml"
+09:57:37.386 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\PANCHALINGAM\Java workspace\E-Commerce\master.xml
+
+09:57:40.799 [TestNG-tests-1] INFO  testCases.TC009_ComparisionProductDisplayPage - ****Enter the Product name in search box****
+09:57:40.979 [TestNG-tests-1] INFO  testCases.TC009_ComparisionProductDisplayPage - ****Clicked the Search Icon****

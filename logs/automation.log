@@ -1,23 +1,39 @@
-12:41:04.638 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - Providing Customer Details
-12:41:07.934 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - Validating Expected Message
-12:41:08.000 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - *****Test Case Finished*****
-12:41:08.202 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - Validating Expected Message
-12:41:08.282 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - *****Test Case Finished*****
-12:41:59.958 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\PANCHALINGAM\Java workspace\E-Commerce\crossbrowsertesting.xml"
-12:42:00.336 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+12:35:32.077 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\Users\PANCHALINGAM\Java workspace\E-Commerce\crossbrowsertesting.xml
 
-12:42:05.151 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - *****Test Case Started*****
-12:42:05.712 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - Clicked on my account link
-12:42:05.910 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - *****Test Case Started*****
-12:42:06.289 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - Clicked on my account link
-12:42:06.669 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - Cllicked on registered link
-12:42:06.677 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - Providing Customer Details
-12:42:07.249 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - Cllicked on registered link
-12:42:07.250 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - Providing Customer Details
-12:42:11.445 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - Validating Expected Message
-12:42:11.516 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - Validating Expected Message
-12:42:11.575 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - *****Test Case Finished*****
-12:42:11.577 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistrationTest - *****Test Case Started*****
-12:42:11.634 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - *****Test Case Finished*****
-12:42:11.844 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistrationTest - Clicked on my account link
+12:35:36.193 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ####TestCase Started####
+12:35:36.193 [TestNG-tests-2] INFO  testCases.TC010_ProductDetails - ####TestCase Started####
+12:35:36.545 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Enter the Product name in search box****
+12:35:36.558 [TestNG-tests-2] INFO  testCases.TC010_ProductDetails - ****Enter the Product name in search box****
+12:35:37.184 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Clicked the Search Icon****
+12:35:37.273 [TestNG-tests-2] INFO  testCases.TC010_ProductDetails - ****Clicked the Search Icon****
+12:35:38.300 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Clicked search display image****
+12:35:38.306 [TestNG-tests-2] INFO  testCases.TC010_ProductDetails - ****Clicked search display image****
+12:35:38.598 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Clicked Compare To Product****
+12:35:38.628 [TestNG-tests-2] INFO  testCases.TC010_ProductDetails - ****Clicked Compare To Product****
+12:35:38.727 [TestNG-tests-3] INFO  testCases.TC010_ProductDetails - ####TestCase Started####
+12:35:39.108 [TestNG-tests-3] INFO  testCases.TC010_ProductDetails - ****Enter the Product name in search box****
+12:35:39.338 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Clicked Product Comparision Link****
+12:35:39.394 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Validated only one product is Displayed****
+12:35:39.443 [TestNG-tests-2] INFO  testCases.TC010_ProductDetails - ****Clicked Product Comparision Link****
+12:35:39.502 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Validated the Name of the Product****
+12:35:39.507 [TestNG-tests-2] INFO  testCases.TC010_ProductDetails - ****Validated only one product is Displayed****
+12:35:39.593 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Validated the Image of the Product****
+12:35:39.630 [TestNG-tests-2] INFO  testCases.TC010_ProductDetails - ****Validated the Name of the Product****
+12:35:39.699 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Validated the Price of the Product****
+12:35:39.735 [TestNG-tests-2] INFO  testCases.TC010_ProductDetails - ****Validated the Image of the Product****
+12:35:39.773 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Validated the Model of the Product****
+12:35:39.805 [TestNG-tests-2] INFO  testCases.TC010_ProductDetails - ****Validated the Price of the Product****
+12:35:39.830 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Validated the Brand of the Product****
+12:35:39.862 [TestNG-tests-2] INFO  testCases.TC010_ProductDetails - ****Validated the Model of the Product****
+12:35:39.882 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Validated the Availability of the Product****
+12:35:39.922 [TestNG-tests-2] INFO  testCases.TC010_ProductDetails - ****Validated the Brand of the Product****
+12:35:39.946 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Validated the Summary of the Product****
+12:35:39.987 [TestNG-tests-2] INFO  testCases.TC010_ProductDetails - ****Validated the Availability of the Product****
+12:35:40.056 [TestNG-tests-2] INFO  testCases.TC010_ProductDetails - ****Validated the Summary of the Product****
+12:35:40.069 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Validated the AddToCart Button of the Product****
+12:35:40.181 [TestNG-tests-2] INFO  testCases.TC010_ProductDetails - ****Validated the AddToCart Button of the Product****
+12:35:40.212 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Validated the Remove Button of the Product****
+12:35:40.213 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ####TestCase Executed Successfully####
+12:35:40.372 [TestNG-tests-2] INFO  testCases.TC010_ProductDetails - ****Validated the Remove Button of the Product****
+12:35:40.372 [TestNG-tests-2] INFO  testCases.TC010_ProductDetails - ####TestCase Executed Successfully####

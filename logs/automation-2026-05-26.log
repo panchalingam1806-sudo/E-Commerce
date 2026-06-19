@@ -1,0 +1,48 @@
+13:02:12.033 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Validated the Brand of the Product****
+13:02:12.070 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Validated the Availability of the Product****
+13:02:12.096 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Validated the Summary of the Product****
+13:02:12.151 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Validated the AddToCart Button of the Product****
+13:02:12.199 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Validated the Remove Button of the Product****
+13:02:12.215 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ####TestCase Executed Successfully####
+13:04:14.155 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\PANCHALINGAM\Java workspace\E-Commerce\crossbrowsertesting.xml"
+13:04:14.522 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\PANCHALINGAM\Java workspace\E-Commerce\crossbrowsertesting.xml
+
+13:04:18.284 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ####TestCase Started####
+13:04:18.310 [TestNG-tests-2] INFO  testCases.TC010_ProductDetails - ####TestCase Started####
+13:04:18.553 [TestNG-tests-2] INFO  testCases.TC010_ProductDetails - ****Enter the Product name in search box****
+13:04:18.553 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Enter the Product name in search box****
+13:04:19.149 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Clicked the Search Icon****
+13:04:19.267 [TestNG-tests-2] INFO  testCases.TC010_ProductDetails - ****Clicked the Search Icon****
+13:04:19.943 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Clicked search display image****
+13:04:20.141 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Clicked Compare To Product****
+13:04:20.141 [TestNG-tests-2] INFO  testCases.TC010_ProductDetails - ****Clicked search display image****
+13:04:20.384 [TestNG-tests-2] INFO  testCases.TC010_ProductDetails - ****Clicked Compare To Product****
+13:04:20.804 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Clicked Product Comparision Link****
+13:04:20.834 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Validated only one product is Displayed****
+13:04:20.877 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Validated the Name of the Product****
+13:04:20.906 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Validated the Image of the Product****
+13:04:20.938 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Validated the Price of the Product****
+13:04:20.977 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Validated the Model of the Product****
+13:04:21.012 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Validated the Brand of the Product****
+13:04:21.052 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Validated the Availability of the Product****
+13:04:21.083 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Validated the Summary of the Product****
+13:04:21.093 [TestNG-tests-2] INFO  testCases.TC010_ProductDetails - ****Clicked Product Comparision Link****
+13:04:21.108 [TestNG-tests-2] INFO  testCases.TC010_ProductDetails - ****Validated only one product is Displayed****
+13:04:21.140 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Validated the AddToCart Button of the Product****
+13:04:21.148 [TestNG-tests-2] INFO  testCases.TC010_ProductDetails - ****Validated the Name of the Product****
+13:04:21.172 [TestNG-tests-2] INFO  testCases.TC010_ProductDetails - ****Validated the Image of the Product****
+13:04:21.197 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Validated the Remove Button of the Product****
+13:04:21.197 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ####TestCase Executed Successfully####
+13:04:21.210 [TestNG-tests-2] INFO  testCases.TC010_ProductDetails - ****Validated the Price of the Product****
+13:04:21.262 [TestNG-tests-2] INFO  testCases.TC010_ProductDetails - ****Validated the Model of the Product****
+13:04:21.300 [TestNG-tests-2] INFO  testCases.TC010_ProductDetails - ****Validated the Brand of the Product****
+13:04:21.347 [TestNG-tests-2] INFO  testCases.TC010_ProductDetails - ****Validated the Availability of the Product****
+13:04:21.407 [TestNG-tests-2] INFO  testCases.TC010_ProductDetails - ****Validated the Summary of the Product****
+13:04:21.476 [TestNG-tests-2] INFO  testCases.TC010_ProductDetails - ****Validated the AddToCart Button of the Product****
+09:30:30.119 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\PANCHALINGAM\Java workspace\E-Commerce\master.xml"
+09:30:30.395 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\PANCHALINGAM\Java workspace\E-Commerce\master.xml
+
+09:30:38.185 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ####TestCase Started####
+09:30:38.425 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Enter the Product name in search box****

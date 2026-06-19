@@ -4,72 +4,82 @@
   <listeners>
     <listener class-name="utilities.ExtentReportManager"/>
   </listeners>
+  <test thread-count="5" parallel="tests" name="LinuxFireFoxTest(failed)">
+    <parameter name="os" value="linux"/>
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="testCases.TC007_SearchByCategory">
+        <methods>
+          <include name="tearDown"/>
+          <include name="valid_and_invalid_Category"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC007_SearchByCategory -->
+    </classes>
+  </test> <!-- LinuxFireFoxTest(failed) -->
   <test thread-count="5" parallel="tests" name="WindowsChromeTest(failed)">
     <parameter name="os" value="windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC003_LoginDDT">
+      <class name="testCases.TC007_SearchByCategory">
         <methods>
           <include name="tearDown"/>
-          <include name="verify_ddt_login"/>
+          <include name="valid_and_invalid_Category"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.TC003_LoginDDT -->
-      <class name="testCases.TC004_Invalid_Login">
-        <methods>
-          <include name="verify_invalid_login"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC004_Invalid_Login -->
-      <class name="testCases.TC002_LoginTest">
-        <methods>
-          <include name="logincredentials"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC002_LoginTest -->
-      <class name="testCases.TC001_AccountRegistrationTest">
-        <methods>
-          <include name="verify_account_registration"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC001_AccountRegistrationTest -->
+      </class> <!-- testCases.TC007_SearchByCategory -->
     </classes>
   </test> <!-- WindowsChromeTest(failed) -->
   <test thread-count="5" parallel="tests" name="WindowsEdgeTest(failed)">
     <parameter name="os" value="windows"/>
     <parameter name="browser" value="edge"/>
     <classes>
-      <class name="testCases.TC003_LoginDDT">
+      <class name="testCases.TC007_SearchByCategory">
         <methods>
           <include name="tearDown"/>
-          <include name="verify_ddt_login"/>
+          <include name="valid_and_invalid_Category"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.TC003_LoginDDT -->
-      <class name="testCases.TC004_Invalid_Login">
-        <methods>
-          <include name="verify_invalid_login"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC004_Invalid_Login -->
-      <class name="testCases.TC002_LoginTest">
-        <methods>
-          <include name="logincredentials"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC002_LoginTest -->
-      <class name="testCases.TC001_AccountRegistrationTest">
-        <methods>
-          <include name="verify_account_registration"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC001_AccountRegistrationTest -->
+      </class> <!-- testCases.TC007_SearchByCategory -->
     </classes>
   </test> <!-- WindowsEdgeTest(failed) -->
+  <test thread-count="5" parallel="tests" name="LinuxChromeTest(failed)">
+    <parameter name="os" value="linux"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testCases.TC007_SearchByCategory">
+        <methods>
+          <include name="tearDown"/>
+          <include name="valid_and_invalid_Category"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC007_SearchByCategory -->
+    </classes>
+  </test> <!-- LinuxChromeTest(failed) -->
+  <test thread-count="5" parallel="tests" name="LinuxEdgeTest(failed)">
+    <parameter name="os" value="linux"/>
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="testCases.TC007_SearchByCategory">
+        <methods>
+          <include name="tearDown"/>
+          <include name="valid_and_invalid_Category"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC007_SearchByCategory -->
+    </classes>
+  </test> <!-- LinuxEdgeTest(failed) -->
+  <test thread-count="5" parallel="tests" name="WindowsFireFoxTest(failed)">
+    <parameter name="os" value="windows"/>
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="testCases.TC007_SearchByCategory">
+        <methods>
+          <include name="tearDown"/>
+          <include name="valid_and_invalid_Category"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC007_SearchByCategory -->
+    </classes>
+  </test> <!-- WindowsFireFoxTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

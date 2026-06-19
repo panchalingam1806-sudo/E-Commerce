@@ -6,7 +6,9 @@
 
 	<groups>
 		<run>	
-			<include name="smoke"/>
+			<include name="funtional"/>
+			<include name="regression"/>
+			
 		</run>
 	</groups> 
 	
@@ -18,10 +20,13 @@
   	<parameter name="os" value="windows"/> 
   	<parameter name="browser" value="chrome"/>
     <classes>
-    
+    <!-- 
    		<class name="testCases.TC001_AccountRegistrationTest"/>  
   		 <class name="testCases.TC002_LoginTest"/>    
-  		<class name="testCases.TC003_LoginDDT"/>	
+  		<class name="testCases.TC003_LoginDDT"/>
+  		<class name="testCases.TC004_Invalid_Login"/>  
+  		<class name="testCases.TC005_Logout"/>    -->
+  		<class name="testCases.TC006_SearchValidProduct"/>	
   	
     </classes>
   </test> <!-- Test -->

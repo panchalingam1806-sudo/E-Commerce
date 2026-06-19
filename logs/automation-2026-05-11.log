@@ -1,0 +1,66 @@
+12:39:01.119 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\PANCHALINGAM\Java workspace\E-Commerce\master.xml"
+12:39:30.372 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\PANCHALINGAM\Java workspace\E-Commerce\master.xml"
+12:39:30.742 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\PANCHALINGAM\Java workspace\E-Commerce\master.xml
+
+12:43:01.700 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\PANCHALINGAM\Java workspace\E-Commerce\master.xml"
+12:43:02.034 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\PANCHALINGAM\Java workspace\E-Commerce\master.xml
+
+12:46:32.819 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\PANCHALINGAM\Java workspace\E-Commerce\master.xml"
+12:46:33.181 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\PANCHALINGAM\Java workspace\E-Commerce\master.xml
+
+12:48:09.208 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\PANCHALINGAM\Java workspace\E-Commerce\master.xml"
+12:48:09.533 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\PANCHALINGAM\Java workspace\E-Commerce\master.xml
+
+12:49:22.618 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\PANCHALINGAM\Java workspace\E-Commerce\master.xml"
+12:49:22.960 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\PANCHALINGAM\Java workspace\E-Commerce\master.xml
+
+12:49:55.241 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\PANCHALINGAM\Java workspace\E-Commerce\master.xml"
+12:49:55.623 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\PANCHALINGAM\Java workspace\E-Commerce\master.xml
+
+12:58:23.237 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\PANCHALINGAM\Java workspace\E-Commerce\master.xml"
+12:58:23.596 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\PANCHALINGAM\Java workspace\E-Commerce\master.xml
+
+12:58:27.393 [main] INFO  testCases.TC006_SearchValidProduct - ####Tescase Started####
+12:58:27.393 [main] INFO  testCases.TC006_SearchValidProduct - ****Enter the Product name in search box****
+12:58:27.567 [main] INFO  testCases.TC006_SearchValidProduct - ****Clicked the Search Icon****
+12:58:28.115 [main] INFO  testCases.TC006_SearchValidProduct - ****Verified ProductName****
+12:58:28.119 [main] INFO  testCases.TC006_SearchValidProduct - ####Testcase Executed Successfully####
+18:18:57.070 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\PANCHALINGAM\Java workspace\E-Commerce\master.xml"
+18:18:57.408 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\PANCHALINGAM\Java workspace\E-Commerce\master.xml
+
+18:19:03.965 [main] INFO  testCases.TC006_SearchValidProduct - ****Clicked the Search Icon****
+18:19:04.633 [main] INFO  testCases.TC006_SearchValidProduct - ****Enter Text in search criteria box****
+18:19:04.750 [main] INFO  testCases.TC006_SearchValidProduct - ****Click the Chechkbox****
+18:19:04.914 [main] INFO  testCases.TC006_SearchValidProduct - ****Click the searchbutton in Search page****
+18:21:15.274 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\PANCHALINGAM\Java workspace\E-Commerce\master.xml"
+18:21:15.616 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\PANCHALINGAM\Java workspace\E-Commerce\master.xml
+
+18:21:18.873 [main] INFO  testCases.TC006_SearchValidProduct - ****Clicked the Search Icon****
+18:21:19.286 [main] INFO  testCases.TC006_SearchValidProduct - ****Enter Text in search criteria box****
+18:21:19.385 [main] INFO  testCases.TC006_SearchValidProduct - ****Click the Chechkbox****
+18:21:19.535 [main] INFO  testCases.TC006_SearchValidProduct - ****Click the searchbutton in Search page****
+18:21:20.110 [main] INFO  testCases.TC006_SearchValidProduct - ****Verified Product is Displayed****
+18:21:20.113 [main] INFO  testCases.TC006_SearchValidProduct - ####Testcase Executed Successfully####
+18:25:39.933 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\PANCHALINGAM\Java workspace\E-Commerce\grouping.xml"
+18:25:40.303 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\PANCHALINGAM\Java workspace\E-Commerce\grouping.xml
+
+18:25:43.612 [main] INFO  testCases.TC006_SearchValidProduct - ****Clicked the Search Icon****
+18:25:44.098 [main] INFO  testCases.TC006_SearchValidProduct - ****Enter Text in search criteria box****
+18:25:44.197 [main] INFO  testCases.TC006_SearchValidProduct - ****Click the Chechkbox****
+18:25:44.344 [main] INFO  testCases.TC006_SearchValidProduct - ****Click the searchbutton in Search page****
+18:25:44.852 [main] INFO  testCases.TC006_SearchValidProduct - ****Verified Product is Displayed****
+18:25:44.858 [main] INFO  testCases.TC006_SearchValidProduct - ####Testcase Executed Successfully####
+18:28:50.930 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\PANCHALINGAM\Java workspace\E-Commerce\grouping.xml"
+18:28:51.289 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\PANCHALINGAM\Java workspace\E-Commerce\grouping.xml
+

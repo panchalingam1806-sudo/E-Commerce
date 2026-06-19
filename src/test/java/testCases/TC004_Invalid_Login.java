@@ -16,17 +16,17 @@ public class TC004_Invalid_Login extends BaseClass {
 		try {
 		HomePage hp = new HomePage(getDriver());
 		logger.info("clicked my account link");
-		hp.clk_my_acc();
+		hp.clickMyAccount();
 		logger.info("clicked login button in homepage ");
-		hp.clicklogin();
+		hp.clickLogin();
 		
 		LoginPage lp = new LoginPage(getDriver());
 		
 		logger.info("Entered invalid email");
-		lp.setmail(p.getProperty("invalidemail"));
+		lp.setMail(p.getProperty("invalidemail"));
 		
 		logger.info("Entered invalid password");
-		lp.setpassword(p.getProperty("invalidpassword"));
+		lp.setPassword(p.getProperty("invalidpassword"));
 		
 		logger.info("clicked login button in loginpage");
 		lp.click_login();

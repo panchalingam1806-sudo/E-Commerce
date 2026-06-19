@@ -22,12 +22,12 @@ public class TC003_LoginDDT extends BaseClass {
 	try 
 	{
 	HomePage hp = new HomePage(getDriver());
-	hp.clk_my_acc();
-	hp.clicklogin();
+	hp.clickMyAccount();
+	hp.clickLogin();
 	
 	LoginPage lp = new LoginPage(getDriver());
-	lp.setmail(email);
-	lp.setpassword(pwd);
+	lp.setMail(email);
+	lp.setPassword(pwd);
 	lp.click_login();
 	
 	MyAccountPage ap = new MyAccountPage(getDriver());

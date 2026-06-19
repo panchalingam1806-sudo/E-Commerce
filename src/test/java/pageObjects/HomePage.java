@@ -3,7 +3,6 @@ package pageObjects;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 
 public class HomePage extends BasePage 
 {
@@ -23,19 +22,68 @@ public class HomePage extends BasePage
 	@FindBy(xpath="//a[normalize-space()='Login']")
 	WebElement log_in;
 	
-	public void clk_my_acc()
+	@FindBy(xpath="//title[text()='Your Store']")
+	WebElement homepage_title;
+	
+	@FindBy(xpath="//input[@name='search']")
+	WebElement searchbox;
+	
+	@FindBy(xpath="//button[@class='btn btn-default btn-lg']")
+	WebElement searchbutton;
+	
+	@FindBy(xpath="//a[text()='iMac']")
+	WebElement prodnname;
+	
+	
+	
+	
+	public void clickMyAccount()
 	{
+		waitForClickable(my_acc);
 		my_acc.click();
 	}
 	
-	public void register_btn()
+	public void registerButton()
 	{
+		waitForClickable(reg_btn);
 		reg_btn.click();
 	}
 	
-	public void clicklogin()
+	public void clickLogin()
 	{
+		waitForClickable(log_in);
 		log_in.click();
 	}
+	
+	public String verifyHomepage()
+	{		
+		try {
+			return(driver.getTitle());
+		}
+		catch(Exception e)
+		{
+			return(e.getMessage());
+		}
+	}
+	
+	public void searchField(String productname)
+	{
+		waitForClickable(searchbox);
+		searchbox.sendKeys(productname);
+	}
+	
+	public void searchIcon()
+	{
+		waitForClickable(searchbutton);
+		searchbutton.click();
+	}
+	
+	public String productName()
+	{
+	   return prodnname.getText();
+	}
+	
+	
+	
 
 }

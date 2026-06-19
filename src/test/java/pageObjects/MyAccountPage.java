@@ -19,6 +19,12 @@ public class MyAccountPage extends BasePage{
 	@FindBy(xpath="//a[@class='list-group-item'][text()='Logout']")
 	WebElement logoutbtn;
 	
+	@FindBy(xpath="//*[@class='btn btn-primary']")
+	WebElement continuebtn;
+	
+	@FindBy(xpath="//ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Logout']")
+	WebElement dropmenulogout;
+	
 	public boolean isTitleVisible()
 	{
 		try 
@@ -33,7 +39,18 @@ public class MyAccountPage extends BasePage{
 	
 	public void clicklogoutbtn()
 	{
+		waitForClickable(logoutbtn);
 		logoutbtn.click();
+	}
+	
+	public void click_continue_btn()
+	{
+		continuebtn.click();
+	}
+	
+	public void dd_logout()
+	{
+		dropmenulogout.click();
 	}
 
 }

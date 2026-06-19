@@ -25,6 +25,7 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
 public class BaseClass {
@@ -44,8 +45,9 @@ public static WebDriver getDriver() {
 	
 	@BeforeMethod(alwaysRun=true)
 	@Parameters({"os","browser"})
-	public void setup(String os,String br) throws IOException
+	public void setup( @Optional("windows")String os,@Optional("chrome")String br) throws IOException
 	{
+		
 		String path = System.getProperty("user.dir") +"/src/test/resources/config.properties";
 		FileReader file = new FileReader(path);
 		p=new Properties();
@@ -90,9 +92,8 @@ public static WebDriver getDriver() {
 
 		        case "firefox":
 		            FirefoxOptions firefoxOptions = new FirefoxOptions();
-		            driver = new RemoteWebDriver(
-		                    new URL("http://localhost:4444"),
-		                    firefoxOptions);
+		            driver = new RemoteWebDriver(firefoxOptions);
+		                    
 		            break;
 
 		        default:
