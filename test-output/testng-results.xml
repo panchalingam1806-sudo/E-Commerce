@@ -1,41 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-19T12:35:32 IST" name="Suite" finished-at="2026-06-19T12:35:44 IST" duration-ms="12711">
+  <suite started-at="2026-06-20T01:09:22 IST" name="Default suite" finished-at="2026-06-20T01:09:29 IST" duration-ms="6840">
     <groups>
     </groups>
-    <test started-at="2026-06-19T12:35:32 IST" name="EdgeTest" finished-at="2026-06-19T12:35:40 IST" duration-ms="8500">
-      <class name="testCases.TC010_ProductDetails">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC010_ProductDetails@46944ca9]" started-at="2026-06-19T12:35:32 IST" name="setup" finished-at="2026-06-19T12:35:36 IST" duration-ms="3633" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="productDetailsValidation()[pri:0, instance:testCases.TC010_ProductDetails@46944ca9]" started-at="2026-06-19T12:35:36 IST" name="productDetailsValidation" finished-at="2026-06-19T12:35:40 IST" duration-ms="4261" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- productDetailsValidation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC010_ProductDetails@46944ca9]" started-at="2026-06-19T12:35:40 IST" name="tearDown" finished-at="2026-06-19T12:35:40 IST" duration-ms="234" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC010_ProductDetails -->
-    </test> <!-- EdgeTest -->
-    <test started-at="2026-06-19T12:35:32 IST" name="ChromeTest" finished-at="2026-06-19T12:35:40 IST" duration-ms="8359">
-      <class name="testCases.TC010_ProductDetails">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC010_ProductDetails@2a62b5bc]" started-at="2026-06-19T12:35:32 IST" name="setup" finished-at="2026-06-19T12:35:36 IST" duration-ms="3771" status="PASS">
+    <test started-at="2026-06-20T01:09:22 IST" name="Default test" finished-at="2026-06-20T01:09:29 IST" duration-ms="6840">
+      <class name="testCases.TC012_ValidateThumbnailImages">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC012_ValidateThumbnailImages@648c94da]" started-at="2026-06-20T01:09:22 IST" name="setup" finished-at="2026-06-20T01:09:25 IST" duration-ms="3312" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -51,43 +23,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="productDetailsValidation()[pri:0, instance:testCases.TC010_ProductDetails@2a62b5bc]" started-at="2026-06-19T12:35:36 IST" name="productDetailsValidation" finished-at="2026-06-19T12:35:40 IST" duration-ms="4076" status="PASS">
+        <test-method signature="validate_thumbnail_image()[pri:0, instance:testCases.TC012_ValidateThumbnailImages@648c94da]" started-at="2026-06-20T01:09:25 IST" name="validate_thumbnail_image" finished-at="2026-06-20T01:09:28 IST" duration-ms="3189" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- productDetailsValidation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC010_ProductDetails@2a62b5bc]" started-at="2026-06-19T12:35:40 IST" name="tearDown" finished-at="2026-06-19T12:35:40 IST" duration-ms="222" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC010_ProductDetails -->
-    </test> <!-- ChromeTest -->
-    <test started-at="2026-06-19T12:35:32 IST" name="FirefoxTest" finished-at="2026-06-19T12:35:44 IST" duration-ms="12711">
-      <class name="testCases.TC010_ProductDetails">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC010_ProductDetails@63798ca7]" started-at="2026-06-19T12:35:32 IST" name="setup" finished-at="2026-06-19T12:35:38 IST" duration-ms="6246" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="productDetailsValidation()[pri:0, instance:testCases.TC010_ProductDetails@63798ca7]" started-at="2026-06-19T12:35:38 IST" name="productDetailsValidation" finished-at="2026-06-19T12:35:43 IST" duration-ms="4596" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- productDetailsValidation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC010_ProductDetails@63798ca7]" started-at="2026-06-19T12:35:43 IST" name="tearDown" finished-at="2026-06-19T12:35:44 IST" duration-ms="1498" status="PASS">
+        </test-method> <!-- validate_thumbnail_image -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC012_ValidateThumbnailImages@648c94da]" started-at="2026-06-20T01:09:28 IST" name="tearDown" finished-at="2026-06-20T01:09:29 IST" duration-ms="284" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC010_ProductDetails -->
-    </test> <!-- FirefoxTest -->
-  </suite> <!-- Suite -->
+      </class> <!-- testCases.TC012_ValidateThumbnailImages -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

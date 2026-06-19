@@ -4,82 +4,17 @@
   <listeners>
     <listener class-name="utilities.ExtentReportManager"/>
   </listeners>
-  <test thread-count="5" parallel="tests" name="LinuxFireFoxTest(failed)">
-    <parameter name="os" value="linux"/>
-    <parameter name="browser" value="firefox"/>
-    <classes>
-      <class name="testCases.TC007_SearchByCategory">
-        <methods>
-          <include name="tearDown"/>
-          <include name="valid_and_invalid_Category"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC007_SearchByCategory -->
-    </classes>
-  </test> <!-- LinuxFireFoxTest(failed) -->
-  <test thread-count="5" parallel="tests" name="WindowsChromeTest(failed)">
+  <test thread-count="5" parallel="tests" name="ChromeTest(failed)">
     <parameter name="os" value="windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC007_SearchByCategory">
+      <class name="testCases.TC011_ProductPriceDetails">
         <methods>
           <include name="tearDown"/>
-          <include name="valid_and_invalid_Category"/>
           <include name="setup"/>
+          <include name="productPricedetails"/>
         </methods>
-      </class> <!-- testCases.TC007_SearchByCategory -->
+      </class> <!-- testCases.TC011_ProductPriceDetails -->
     </classes>
-  </test> <!-- WindowsChromeTest(failed) -->
-  <test thread-count="5" parallel="tests" name="WindowsEdgeTest(failed)">
-    <parameter name="os" value="windows"/>
-    <parameter name="browser" value="edge"/>
-    <classes>
-      <class name="testCases.TC007_SearchByCategory">
-        <methods>
-          <include name="tearDown"/>
-          <include name="valid_and_invalid_Category"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC007_SearchByCategory -->
-    </classes>
-  </test> <!-- WindowsEdgeTest(failed) -->
-  <test thread-count="5" parallel="tests" name="LinuxChromeTest(failed)">
-    <parameter name="os" value="linux"/>
-    <parameter name="browser" value="chrome"/>
-    <classes>
-      <class name="testCases.TC007_SearchByCategory">
-        <methods>
-          <include name="tearDown"/>
-          <include name="valid_and_invalid_Category"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC007_SearchByCategory -->
-    </classes>
-  </test> <!-- LinuxChromeTest(failed) -->
-  <test thread-count="5" parallel="tests" name="LinuxEdgeTest(failed)">
-    <parameter name="os" value="linux"/>
-    <parameter name="browser" value="edge"/>
-    <classes>
-      <class name="testCases.TC007_SearchByCategory">
-        <methods>
-          <include name="tearDown"/>
-          <include name="valid_and_invalid_Category"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC007_SearchByCategory -->
-    </classes>
-  </test> <!-- LinuxEdgeTest(failed) -->
-  <test thread-count="5" parallel="tests" name="WindowsFireFoxTest(failed)">
-    <parameter name="os" value="windows"/>
-    <parameter name="browser" value="firefox"/>
-    <classes>
-      <class name="testCases.TC007_SearchByCategory">
-        <methods>
-          <include name="tearDown"/>
-          <include name="valid_and_invalid_Category"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC007_SearchByCategory -->
-    </classes>
-  </test> <!-- WindowsFireFoxTest(failed) -->
+  </test> <!-- ChromeTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

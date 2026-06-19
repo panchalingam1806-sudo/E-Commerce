@@ -1,39 +1,25 @@
-12:35:32.077 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\PANCHALINGAM\Java workspace\E-Commerce\crossbrowsertesting.xml
-
-12:35:36.193 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ####TestCase Started####
-12:35:36.193 [TestNG-tests-2] INFO  testCases.TC010_ProductDetails - ####TestCase Started####
-12:35:36.545 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Enter the Product name in search box****
-12:35:36.558 [TestNG-tests-2] INFO  testCases.TC010_ProductDetails - ****Enter the Product name in search box****
-12:35:37.184 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Clicked the Search Icon****
-12:35:37.273 [TestNG-tests-2] INFO  testCases.TC010_ProductDetails - ****Clicked the Search Icon****
-12:35:38.300 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Clicked search display image****
-12:35:38.306 [TestNG-tests-2] INFO  testCases.TC010_ProductDetails - ****Clicked search display image****
-12:35:38.598 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Clicked Compare To Product****
-12:35:38.628 [TestNG-tests-2] INFO  testCases.TC010_ProductDetails - ****Clicked Compare To Product****
-12:35:38.727 [TestNG-tests-3] INFO  testCases.TC010_ProductDetails - ####TestCase Started####
-12:35:39.108 [TestNG-tests-3] INFO  testCases.TC010_ProductDetails - ****Enter the Product name in search box****
-12:35:39.338 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Clicked Product Comparision Link****
-12:35:39.394 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Validated only one product is Displayed****
-12:35:39.443 [TestNG-tests-2] INFO  testCases.TC010_ProductDetails - ****Clicked Product Comparision Link****
-12:35:39.502 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Validated the Name of the Product****
-12:35:39.507 [TestNG-tests-2] INFO  testCases.TC010_ProductDetails - ****Validated only one product is Displayed****
-12:35:39.593 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Validated the Image of the Product****
-12:35:39.630 [TestNG-tests-2] INFO  testCases.TC010_ProductDetails - ****Validated the Name of the Product****
-12:35:39.699 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Validated the Price of the Product****
-12:35:39.735 [TestNG-tests-2] INFO  testCases.TC010_ProductDetails - ****Validated the Image of the Product****
-12:35:39.773 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Validated the Model of the Product****
-12:35:39.805 [TestNG-tests-2] INFO  testCases.TC010_ProductDetails - ****Validated the Price of the Product****
-12:35:39.830 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Validated the Brand of the Product****
-12:35:39.862 [TestNG-tests-2] INFO  testCases.TC010_ProductDetails - ****Validated the Model of the Product****
-12:35:39.882 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Validated the Availability of the Product****
-12:35:39.922 [TestNG-tests-2] INFO  testCases.TC010_ProductDetails - ****Validated the Brand of the Product****
-12:35:39.946 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Validated the Summary of the Product****
-12:35:39.987 [TestNG-tests-2] INFO  testCases.TC010_ProductDetails - ****Validated the Availability of the Product****
-12:35:40.056 [TestNG-tests-2] INFO  testCases.TC010_ProductDetails - ****Validated the Summary of the Product****
-12:35:40.069 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Validated the AddToCart Button of the Product****
-12:35:40.181 [TestNG-tests-2] INFO  testCases.TC010_ProductDetails - ****Validated the AddToCart Button of the Product****
-12:35:40.212 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ****Validated the Remove Button of the Product****
-12:35:40.213 [TestNG-tests-1] INFO  testCases.TC010_ProductDetails - ####TestCase Executed Successfully####
-12:35:40.372 [TestNG-tests-2] INFO  testCases.TC010_ProductDetails - ****Validated the Remove Button of the Product****
-12:35:40.372 [TestNG-tests-2] INFO  testCases.TC010_ProductDetails - ####TestCase Executed Successfully####
+01:09:26.040 [main] INFO  testCases.TC012_ValidateThumbnailImages - ****Enter the Productname in the input field****
+01:09:26.556 [main] INFO  testCases.TC012_ValidateThumbnailImages - ****Click the SearchIcon Button****
+01:09:27.466 [main] INFO  testCases.TC012_ValidateThumbnailImages - ****Click the Search Image on the Showing Display****
+01:09:27.589 [main] INFO  testCases.TC012_ValidateThumbnailImages - ****Click on the Main Bigger sized Thumbnail image****
+01:09:27.732 [main] INFO  testCases.TC012_ValidateThumbnailImages - ****Validating the Previous and Next Buttons****
+01:09:27.770 [main] INFO  testCases.TC012_ValidateThumbnailImages - ****Validate the Products count****
+01:09:27.876 [main] INFO  testCases.TC012_ValidateThumbnailImages - ****Click the Previous Button in the Light Box View****
+01:09:27.901 [main] INFO  testCases.TC012_ValidateThumbnailImages - ****Validate the Products Navigation Based On Products count****
+01:09:28.005 [main] INFO  testCases.TC012_ValidateThumbnailImages - ****Click the Next Button in the Light Box View****
+01:09:28.026 [main] INFO  testCases.TC012_ValidateThumbnailImages - ****Validate the Products Navigation Based On Products count****
+01:09:28.126 [main] INFO  testCases.TC012_ValidateThumbnailImages - ****Click the Close Button in the Light Box View****
+01:09:28.208 [main] INFO  testCases.TC012_ValidateThumbnailImages - ****Click on the First Small Thumbnail Image****
+01:09:28.234 [main] INFO  testCases.TC012_ValidateThumbnailImages - ****Again Validate the Products Navigation Based On Products count****
+01:09:28.326 [main] INFO  testCases.TC012_ValidateThumbnailImages - ****Click the Previous Button in the Light Box View****
+01:09:28.347 [main] INFO  testCases.TC012_ValidateThumbnailImages - ****Again Validate the Products Navigation Based On Products count****
+01:09:28.438 [main] INFO  testCases.TC012_ValidateThumbnailImages - ****Click the Next Button in the Light Box View****
+01:09:28.457 [main] INFO  testCases.TC012_ValidateThumbnailImages - ****Again Validate the Products Navigation Based On Products count****
+01:09:28.547 [main] INFO  testCases.TC012_ValidateThumbnailImages - ****Click the Close Button in the Light Box View****
+01:09:28.626 [main] INFO  testCases.TC012_ValidateThumbnailImages - ****Click on the Second Small Thumbnail Image****
+01:09:28.648 [main] INFO  testCases.TC012_ValidateThumbnailImages - ****Again Validate the Products Navigation Based On Products count****
+01:09:28.733 [main] INFO  testCases.TC012_ValidateThumbnailImages - ****Click the Previous Button in the Light Box View****
+01:09:28.754 [main] INFO  testCases.TC012_ValidateThumbnailImages - ****Again Validate the Products Navigation Based On Products count****
+01:09:28.844 [main] INFO  testCases.TC012_ValidateThumbnailImages - ****Click the Next Button in the Light Box View****
+01:09:28.866 [main] INFO  testCases.TC012_ValidateThumbnailImages - ****Again Validate the Products Navigation Based On Products count****
+01:09:28.964 [main] INFO  testCases.TC012_ValidateThumbnailImages - ****Click the Close Button in the Light Box View****

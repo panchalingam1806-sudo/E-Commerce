@@ -18,8 +18,9 @@
   		<class name="testCases.TC005_Logout"/>   
   		<class name="testCases.TC006_SearchValidProduct"/>     
   		<class name="testCases.TC007_SearchByCategory"/>   
-  		<class name="testCases.TC009_ComparisionProductDisplayPage"></class>  -->
-  		<class name="testCases.TC010_ProductDetails"/>
+  		<class name="testCases.TC009_ComparisionProductDisplayPage"></class>  
+  		<class name="testCases.TC010_ProductDetails"/>  -->
+  		<class name="testCases.TC011_ProductPriceDetails"/>
     </classes>
   </test>
   
@@ -34,8 +35,9 @@
   		<class name="testCases.TC005_Logout"/>   
   		<class name="testCases.TC006_SearchValidProduct"/>     
   		<class name="testCases.TC007_SearchByCategory"/>  
-  		<class name="testCases.TC009_ComparisionProductDisplayPage"></class>   -->
-  		<class name="testCases.TC010_ProductDetails"/>
+  		<class name="testCases.TC009_ComparisionProductDisplayPage"></class>  
+  		<class name="testCases.TC010_ProductDetails"/>    -->
+  		<class name="testCases.TC011_ProductPriceDetails"/>
     </classes>
   </test>
   
@@ -51,8 +53,9 @@
   		<class name="testCases.TC005_Logout"/>   
   		<class name="testCases.TC006_SearchValidProduct"/>     
   		<class name="testCases.TC007_SearchByCategory"/>    
-  		<class name="testCases.TC009_ComparisionProductDisplayPage"></class>   -->
-  		<class name="testCases.TC010_ProductDetails"/>
+  		<class name="testCases.TC009_ComparisionProductDisplayPage"></class>  
+  		<class name="testCases.TC010_ProductDetails"/>     -->
+  		<class name="testCases.TC011_ProductPriceDetails"/>
     </classes>
   </test>
    

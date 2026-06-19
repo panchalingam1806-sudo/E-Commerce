@@ -1,5 +1,7 @@
 package pageObjects;
 
+import java.util.List;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -47,6 +49,21 @@ public class ProductDisplayPage extends BasePage
 	
 	@FindBy(xpath="//div[contains(text(),'Success: You have added ')]")
 	WebElement cartsuccess;
+	
+	@FindBy(xpath="//ul[@class='thumbnails']//li//a//img")
+	List<WebElement> images;
+	
+	@FindBy(xpath="//button[@title='Previous (Left arrow key)']")
+	WebElement previousbtn;
+	
+	@FindBy(xpath="//button[@title='Next (Right arrow key)']")
+	WebElement nextbtn;
+	
+	@FindBy(xpath="//div[@class='mfp-counter']")
+	WebElement countImage;
+	
+	@FindBy(xpath="//button[@title='Close (Esc)']")
+	WebElement clickclose;
 	
 	
 	public String txtImac()
@@ -110,6 +127,43 @@ public class ProductDisplayPage extends BasePage
 	{
 		return cartsuccess.getText().replace("×", "").trim();
 	}
+	
+	public void clickThumbnailImage(int index)
+	{
+		 images.get(index).click();
+	}
+	
+	public boolean validatePreviousBtn()
+	{
+		return previousbtn.isDisplayed() && previousbtn.isEnabled();
+	}
+	
+	public boolean validateNextBtn()
+	{
+		return nextbtn.isDisplayed() && nextbtn.isEnabled();
+	}
+	
+	public String validateImgView()
+	{
+		return countImage.getText();
+	}
+	
+	public void clickPreviousBtn()
+	{
+		previousbtn.click();
+	}
+	
+	public void clickNextBtn()
+	{
+		nextbtn.click();
+	}
+	
+	public void clickCloseBtn()
+	{
+		clickclose.click();
+	}
+	
+	
 	
 	
 	
